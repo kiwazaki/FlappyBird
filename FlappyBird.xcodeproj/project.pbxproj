@@ -14,6 +14,7 @@
 		5935EA271E637DAB0047E83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5935EA251E637DAB0047E83E /* LaunchScreen.storyboard */; };
 		5935EA301E637DE90047E83E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5935EA2F1E637DE90047E83E /* SpriteKit.framework */; };
 		5935EA321E637F940047E83E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5935EA311E637F940047E83E /* GameScene.swift */; };
+		59C0409D1E71549E00F65A0A /* itemsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59C0409C1E71549E00F65A0A /* itemsound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5935EA281E637DAB0047E83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5935EA2F1E637DE90047E83E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		5935EA311E637F940047E83E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		59C0409C1E71549E00F65A0A /* itemsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = itemsound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				5935EA201E637DAB0047E83E /* Main.storyboard */,
 				5935EA311E637F940047E83E /* GameScene.swift */,
 				5935EA231E637DAB0047E83E /* Assets.xcassets */,
+				59C0409C1E71549E00F65A0A /* itemsound.mp3 */,
 				5935EA251E637DAB0047E83E /* LaunchScreen.storyboard */,
 				5935EA281E637DAB0047E83E /* Info.plist */,
 			);
@@ -142,6 +145,7 @@
 				5935EA271E637DAB0047E83E /* LaunchScreen.storyboard in Resources */,
 				5935EA241E637DAB0047E83E /* Assets.xcassets in Resources */,
 				5935EA221E637DAB0047E83E /* Main.storyboard in Resources */,
+				59C0409D1E71549E00F65A0A /* itemsound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +320,7 @@
 				5935EA2D1E637DAB0047E83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
